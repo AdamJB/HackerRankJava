@@ -1,6 +1,6 @@
 package com.ajb.hackerrank;
 
-import com.ajb.hackerrank.solutions.SolveMeSecond;
+import com.ajb.hackerrank.solutions.FlippingBits;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ public class Solution {
     private static String INPUT_FILE_NAME = "input";
 
     public static void main(String[] args) {
-        SolveMeSecond solve = new SolveMeSecond();
+        FlippingBits solve = new FlippingBits();
         solve.solve();
     }
 
